@@ -1,7 +1,7 @@
 pipeline {
   environment {
     imagename = "subajs/jenkins-training"
-    registryCredential = 'dockerhub'
+    registryCredential = 'dockerhubsuba'
     dockerImage = ''
   }
   agent any
